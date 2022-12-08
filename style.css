@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
+body 
+{
+    font-family: 'Work Sans', sans-serif;
+}
+@media (min-width: 1200px)
+{
+.container {
+  max-width: 1240px;
+}
+}
+.title a , .read, .slider a
+{
+    text-decoration: none;
+    color: #253869;
+}
+.btn-primary 
+{
+    background: #253869;
+    color: #fff;
+    border: 1px solid #253869;
+}
+
+footer
+{
+    background: #253869;
+    color: #eae7e7;
+    padding: 30px 0;
+    font-size: 13px;
+}
+.footernav li 
+{
+    display: inline;
+}
+.footernav li a 
+{
+    color: rgb(243, 235, 235);
+    padding:0px 20px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+    font-size: 13px;
+}
+.formtheme
+{
+    border-radius: 20px;
+}
+.btnn
+{
+    position: absolute;
+    right: 90px;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover 
+    {
+        color: #253869;
+    }
+    .logo a
+    {
+        color: #253869;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .logo a span 
+    {
+        color: #61D0CB;
+    }
